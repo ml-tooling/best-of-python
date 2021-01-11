@@ -1,0 +1,40 @@
+configuration:
+  min_stars: 0
+  min_projectrank: 0
+  require_github: True
+  allowed_licenses: ["all"]
+  hide_project_license: True
+  markdown_header_file: "config/header.md"
+  markdown_footer_file: "config/footer.md"
+  projects_history_folder: "history"
+
+categories:
+  - category: "data-engineering"
+    title: "Machine Learning & Data Engineering"
+    subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
+  - category: "web-dev"
+    title: "Web Development"
+    subtitle: "Best-of lists about react, vue, angular, html5, css, or other topics related to web development."
+
+labels:
+  - label: "python"
+    image: "https://www.python.org/static/favicon.ico"
+    description: "Best-of list with Python projects"
+
+projects:
+  - name: best-of-ml-python
+    github_id: ml-tooling/best-of-ml-python
+    labels: ["python"]
+    category: "data-engineering"
+  - name: best-of-jupyter
+    github_id: ml-tooling/best-of-jupyter
+    labels: ["python"]
+    category: "data-engineering"
+  - name: best-of-web-python
+    github_id: ml-tooling/best-of-web-python
+    labels: ["python"]
+    category: "web-dev"
+  - name: best-of-streamlit
+    github_id: jrieke/best-of-streamlit
+    labels: ["python"]
+    category: "data-engineering"

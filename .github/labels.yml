@@ -1,0 +1,42 @@
+- name: add-project
+  color: a2eeef
+  description: "Add new project to best-of list"
+- name: update-project
+  color: a2eeef
+  description: "Update a project on the best-of list"
+- name: category
+  color: a2eeef
+  description: "Add or update a category to the best-of list"
+- name: configuration
+  color: a2eeef
+  description: "Issue refers to the best-of list configuration"
+- name: generation
+  color: a2eeef
+  description: "Issue refers to the best-of markdown generation"
+- name: collection
+  color: a2eeef
+  description: "Issue refers to the project metadata collection"
+- name: question
+  color: a2eeef
+  description: "Further information is requested"
+- name: documentation
+  color: a2eeef
+  description: "Changes to documentation"
+- name: bug
+  color: d73a4a
+  description: "Something isn't working"
+- name: "good first issue"
+  color: 98FF98
+  description: "Good for newcomers"
+- name: "help wanted"
+  color: 98FF98
+  description: "Extra attention is needed"
+- name: invalid
+  color: cfd3d7
+  description: "This doesn't seem right"
+- name: duplicate
+  color: cfd3d7
+  description: "This issue or pull request already exists"
+- name: "further input needed"
+  color: cfd3d7
+  description: "Not enough detail is provided by the creator"
