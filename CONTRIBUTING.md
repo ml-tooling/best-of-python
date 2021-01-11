@@ -16,8 +16,8 @@ Thanks for your interest in contributing to our project. This page will give you
 
 If you like to suggest or add a project, choose one of the following ways:
 
-- Suggest a project by opening an issue: Please use the suggest project template from the [issue page](https://github.com/best-of-lists/best-of/issues/new/choose) and fill in the requested information.
-- Add a project by modifying the [projects.yaml](https://github.com/best-of-lists/best-of/blob/main/projects.yaml) and submitting a pull request with your addition. This can also be done directly via the [GitHub UI](https://github.com/best-of-lists/best-of/edit/main/projects.yaml).
+- Suggest a project by opening an issue: Please use the suggest project template from the [issue page](https://github.com/ml-tooling/best-of-python/issues/new/choose) and fill in the requested information.
+- Add a project by modifying the [projects.yaml](https://github.com/ml-tooling/best-of-python/blob/main/projects.yaml) and submitting a pull request with your addition. This can also be done directly via the [Github UI](https://github.com/ml-tooling/best-of-python/edit/main/projects.yaml).
 
 Before opening an issue or pull request, please ensure that you adhere to the following guidelines:
 
@@ -33,14 +33,14 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
     ```
 - Please create an individual issue or pull request for each project.
 - Please use the following title format for the issue or pull request: `Add project: project-name`.
-- If a project doesn't fit any of the pre-existing categories, it should go under the `Others` category by not assigning any category. You can also suggest a new category via the add or update category template on the [issue page](https://github.com/best-of-lists/best-of/issues/new/choose).
+- If a project doesn't fit into any of the pre-existing categories, it should go under the `Others` category by not assigning any category. You can also suggest a new category via the add or update category template on the [issue page](https://github.com/ml-tooling/best-of-python/issues/new/choose).
 
 ## Update a project
 
 If you like to suggest or contribute a project update, choose one of the following ways:
 
-- Suggest a project update by opening an issue: Please use the update project template from the [issue page](https://github.com/best-of-lists/best-of/issues/new/choose) and fill in the requested information.
-- Update a project by modifying the [projects.yaml](https://github.com/best-of-lists/best-of/blob/main/projects.yaml) and submitting a pull request with your changes. This can also be done directly via the [GitHub UI](https://github.com/best-of-lists/best-of/edit/main/projects.yaml).
+- Suggest a project update by opening an issue: Please use the update project template from the [issue page](https://github.com/ml-tooling/best-of-python/issues/new/choose) and fill in the requested information.
+- Update a project by modifying the [projects.yaml](https://github.com/ml-tooling/best-of-python/blob/main/projects.yaml) and submitting a pull request with your changes. This can also be done directly via the [Github UI](https://github.com/ml-tooling/best-of-python/edit/main/projects.yaml).
 
 Before opening an issue or pull request, please ensure that you adhere to the following guidelines:
 
@@ -61,7 +61,7 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
     </tr>
     <tr>
         <td><code>github_id</code></td>
-        <td>GitHub ID of the project based on user or organization  and the repository name, e.g. <code>best-of-lists/best-of-generator</code>.</td>
+        <td>Github ID of the project based on user or organization and the repository name, e.g. <code>best-of-lists/best-of-generator</code>.</td>
     </tr>
     <tr>
         <td colspan="2"><b>Optional Properties:</b></td>
@@ -91,7 +91,7 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
     </tr>
     <tr>
         <td><code>dockerhub_id</code></td>
-        <td>Project ID on the <a href="https://hub.docker.com">Dockerhub container registry</a>. </td>
+        <td>Project ID on the <a href="https://hub.docker.com">Docker Hub container registry</a>. </td>
     </tr>
     <tr>
         <td><code>maven_id</code></td>
@@ -111,7 +111,7 @@ If you like to contribute to or share suggestions regarding the markdown generat
 
 ## Create your own best-of list
 
-If you want to create your own best-of list, we strongly recommend to follow [this guide](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md). With this guide, it will only take about 3 minutes to get you started. It is already set-up to automatically run the best-of generator via our GitHub Action and includes other useful template files.
+If you want to create your own best-of list, we strongly recommend to follow [this guide](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md). With this guide, it will only take about 3 minutes to get you started. It is already set-up to automatically run the best-of generator via our Github Action and includes other useful template files.
 
 ## Code of Conduct
 
