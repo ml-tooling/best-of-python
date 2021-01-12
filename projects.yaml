@@ -198,7 +198,7 @@ projects:
     github_id: DiffSK/configobj
     category: configuration
     pypi_id: configobj
-    license: BSD-3.0-Clause
+    license: BSD-3-Clause
     conda_id: conda-forge/configobj
   - name: hydra
     github_id: facebookresearch/hydra
@@ -692,7 +692,7 @@ projects:
     github_id: cloudpipe/cloudpickle
     category: serialization
     conda_id: conda-forge/cloudpickle
-    license: BSD-3.0-Clause
+    license: BSD-3-Clause
     pypi_id: cloudpickle
   - name: pyasn1
     github_id: etingof/pyasn1
@@ -703,7 +703,7 @@ projects:
     github_id: protocolbuffers/protobuf
     category: serialization
     conda_id: conda-forge/protobuf
-    license: BSD-3.0-Clause
+    license: BSD-3-Clause
     pypi_id: protobuf
   - name: dill
     github_id: uqfoundation/dill
