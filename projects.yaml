@@ -1,6 +1,7 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  hide_empty_categories: True
 
 categories:
   - category: "serialization"
@@ -51,6 +52,8 @@ categories:
     title: "File Formats"
   - category: "inspect"
     title: "Code Inspection"
+  - category: "os-util"
+    title: "Operation System Tools"
   - category: "utilities"
     title: "General Utilities"
 
@@ -86,11 +89,6 @@ projects:
     github_id: prompt-toolkit/python-prompt-toolkit
     category: cli-helpers
     pypi_id: prompt_toolkit
-  - name: alive-progress
-    github_id: rsalmei/alive-progress
-    category: cli-helpers
-    pypi_id: alive-progress
-    conda_id: conda-forge/alive-progress
   - name: asciimatics
     github_id: peterbrittain/asciimatics
     category: cli-helpers
@@ -105,12 +103,6 @@ projects:
     category: cli-helpers
     pypi_id: rich
     conda_id: conda-forge/rich
-  - name: tqdm
-    github_id: tqdm/tqdm
-    category: cli-helpers
-    license: MIT
-    pypi_id: tqdm
-    conda_id: conda-forge/tqdm
   - name: marshmallow
     github_id: marshmallow-code/marshmallow
     category: serialization
@@ -261,7 +253,7 @@ projects:
     conda_id: conda-forge/clint
   - name: cookiecutter
     github_id: cookiecutter/cookiecutter
-    category: cli-helpers
+    category: others
     pypi_id: cookiecutter
     conda_id: conda-forge/cookiecutter
   - name: colout
@@ -371,11 +363,6 @@ projects:
     category: cli-helpers
     conda_id: conda-forge/argcomplete
     pypi_id: argcomplete
-  - name: progressbar2
-    github_id: WoLpH/python-progressbar
-    category: cli-helpers
-    conda_id: conda-forge/progressbar2
-    pypi_id: progressbar2
   - name: cleo
     github_id: sdispater/cleo
     category: cli-helpers
@@ -774,3 +761,122 @@ projects:
     github_id: tiangolo/typer
     category: cli-helpers
     pypi_id: typer
+  - name: keyboard
+    github_id: boppreh/keyboard
+    category: os-utils
+    pypi_id: keyboard
+  - name: python-mss
+    github_id: BoboTiG/python-mss
+    category: os-utils
+    conda_id: conda-forge/python-mss
+    pypi_id: mss
+  - name: pyscreenshot
+    github_id: ponty/pyscreenshot
+    category: os-utils
+    pypi_id: pyscreenshot
+  - name: diagrams
+    github_id: mingrammer/diagrams
+    category: others
+    conda_id: conda-forge/diagrams
+    pypi_id: diagrams
+  - name: catalogue
+    github_id: explosion/catalogue
+    category: others
+    conda_id: conda-forge/catalogue
+    pypi_id: catalogue
+  - name: pluginbase
+    github_id: mitsuhiko/pluginbase
+    category: others
+    conda_id: conda-forge/pluginbase
+    pypi_id: pluginbase
+  - name: srsly
+    github_id: explosion/srsly
+    category: serialization
+    conda_id: conda-forge/srsly
+    pypi_id: srsly
+  - name: orjson
+    github_id: ijl/orjson
+    category: serialization
+    conda_id: conda-forge/orjson
+    pypi_id: orjson
+  - name: price-parser
+    github_id: scrapinghub/price-parser
+    category: text
+    pypi_id: price-parser
+  - name: awesome-slugify
+    github_id: voronind/awesome-slugify
+    category: text
+    conda_id: conda-forge/awesome-slugify
+    pypi_id: awesome-slugify
+  - name: CommonRegex
+    github_id: madisonmay/CommonRegex
+    category: utilities
+    pypi_id: commonregex
+  - name: pampy
+    github_id: santinic/pampy
+    category: utilities
+    pypi_id: pampy
+  - name: returns
+    github_id: dry-python/returns
+    category: utilities
+    pypi_id: returns
+  - name: stopit
+    github_id: glenfant/stopit
+    category: async
+    conda_id: conda-forge/stopit
+    pypi_id: stopit
+  - name: omegaconf
+    github_id: omry/omegaconf
+    category: configuration
+    conda_id: conda-forge/omegaconf
+    pypi_id: omegaconf
+  - name: tink
+    github_id: google/tink
+    category: cryptography
+    pypi_id: tink
+  - name: ordered-set
+    github_id: LuminosoInsight/ordered-set
+    category: data-structures
+    conda_id: conda-forge/ordered-set
+    pypi_id: ordered-set
+  - name: param
+    github_id: holoviz/param
+    category: data-validation
+    conda_id: conda-forge/param
+    pypi_id: param
+  - name: typical
+    github_id: seandstewart/typical
+    category: data-validation
+    pypi_id: typical
+  - name: kivy
+    github_id: kivy/kivy
+    category: gui-dev
+    conda_id: conda-forge/kivy
+    pypi_id: kivy
+  - name: pyinfra
+    github_id: Fizzadar/pyinfra
+    category: infrastructure
+    pypi_id: pyinfra
+  - name: parallel-ssh
+    github_id: ParallelSSH/parallel-ssh
+    category: infrastructure
+    pypi_id: parallel-ssh
+  - name: schedule
+    github_id: dbader/schedule
+    category: infrastructure
+    conda_id: conda-forge/schedule
+    pypi_id: schedule
+  - name: fabtools
+    github_id: fabtools/fabtools
+    category: infrastructure
+    pypi_id: fabtools
+  - name: fabric
+    github_id: fabric/fabric
+    category: infrastructure
+    conda_id: conda-forge/fabric
+    pypi_id: fabric
+  - name: typing_inspect
+    github_id: ilevkivskyi/typing_inspect
+    category: inspect
+    conda_id: conda-forge/typing_inspect
+    pypi_id: typing_inspect
