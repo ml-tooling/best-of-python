@@ -1142,3 +1142,7 @@ projects:
     github_id: python/cpython
     category: python-implementations
     pypi_id: cpython
+  - name: ubelt
+    github_id: Erotemic/ubelt
+    category: utilities
+    pypi_id: ubelt
