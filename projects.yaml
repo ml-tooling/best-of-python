@@ -5,7 +5,7 @@ configuration:
 
 categories:
   - category: "computer-vision"
-    title: "Computer/Machine Vision"
+    title: "Computer Vision"
   - category: "serialization"
     title: "Data Serialization"
   - category: "data-structures"
