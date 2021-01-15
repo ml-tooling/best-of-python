@@ -4,7 +4,7 @@ configuration:
   hide_empty_categories: True
 
 categories:
-  - category: "computer-machine-vision"
+  - category: "computer-vision"
     title: "Computer & Machine Vision"
   - category: "serialization"
     title: "Data Serialization"
@@ -74,7 +74,7 @@ projects:
     github_id: ml-tooling/best-of-ml-python
     description: "A lightweight, scalable Computer Vision library. Scale your models, not boilerplate."
     resource: True
-    category: computer-machine-vision
+    category: computer-vision
   - name: best-of-web-python - Web UI
     github_id: ml-tooling/best-of-web-python
     description: "Collection of libraries to implement web-based UIs."
