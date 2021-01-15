@@ -48,7 +48,7 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 - [Development Tools](#development-tools) _1 projects_
 - [Data Caching](#data-caching) _3 projects_
 - [GUI Development](#gui-development) _9 projects_
-- [Machine Learning & Data Engineering](#machine-learning--data-engineering) _1 projects_
+- [Machine Learning & Data Engineering](#machine-learning--data-engineering) _2 projects_
 - [Text Data](#text-data) _5 projects_
 - [Web Development](#web-development) _1 projects_
 - [Database Clients](#database-clients) _51 projects_
@@ -589,6 +589,24 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 
 - <b><a href="https://github.com/schematics/schematics">schematics</a></b> (🥈29 ·  ⭐ 2.4K · 💀) - Python Data Structures for Humans. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 - <b><a href="https://github.com/podio/valideer">valideer</a></b> (🥉19 ·  ⭐ 240 · 💀) - Lightweight data validation and adaptation Python library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
+</details>
+<br>
+
+## Computer Vision
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 301 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 110K · 📋 10 - 27% open · ⏱️ 14.01.2021):
+
+	```
+	git clone https://github.com/protocolbuffers/protobuf
+	```
+- [PyPi](https://pypi.org/project/caer) (📥 200K / month · 📦 100 · ⏱️ 14.01.2021):
+	```
+	pip install caer
+	```
 </details>
 <br>
 
@@ -1878,32 +1896,13 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 </details>
 <br>
 
-## Computer/Machine Vision
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 301 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 110K · 📋 10 - 27% open · ⏱️ 14.01.2021):
-
-	```
-	git clone https://github.com/protocolbuffers/protobuf
-	```
-- [PyPi](https://pypi.org/project/caer) (📥 200K / month · 📦 100 · ⏱️ 14.01.2021):
-	```
-	pip install caer
-	```
-</details>
-
-<br>
-
 ## Machine Learning & Data Engineering
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 <details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 301 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 110K · 📋 10 - 27% open · ⏱️ 14.01.2021):
+- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 100 · 📋 10 - 20% open · ⏱️ 14.01.2021):
 
 	```
 	git clone https://github.com/protocolbuffers/protobuf
