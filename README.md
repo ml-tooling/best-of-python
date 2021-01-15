@@ -34,7 +34,6 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 - [Data Serialization](#data-serialization) _14 projects_
 - [Data Structures](#data-structures) _8 projects_
 - [Data Validation](#data-validation) _12 projects_
-- [Computer/Machine Vision](#computer-vision) _1 project_
 - [Algorithms & Design Patterns](#algorithms--design-patterns) _3 projects_
 - [Date & Time Utilities](#date--time-utilities) _9 projects_
 - [File & Path Utilities](#file--path-utilities) _9 projects_
@@ -48,7 +47,7 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 - [Development Tools](#development-tools) _1 projects_
 - [Data Caching](#data-caching) _3 projects_
 - [GUI Development](#gui-development) _9 projects_
-- [Machine Learning & Data Engineering](#machine-learning--data-engineering) _2 projects_
+- [Machine Learning & Data Engineering](#machine-learning--data-engineering) _1 projects_
 - [Text Data](#text-data) _5 projects_
 - [Web Development](#web-development) _1 projects_
 - [Database Clients](#database-clients) _51 projects_
@@ -112,7 +111,6 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 	conda install -c conda-forge flatbuffers
 	```
 </details>
-
 <details><summary><b><a href="https://github.com/ultrajson/ultrajson">ultrajson</a></b> (🥇33 ·  ⭐ 3.1K) - Ultra fast JSON decoder and encoder written in C with Python bindings. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/ultrajson/ultrajson) (👨‍💻 71 · 🔀 300 · 📦 19K · 📋 290 - 13% open · ⏱️ 16.11.2020):
@@ -589,24 +587,6 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 
 - <b><a href="https://github.com/schematics/schematics">schematics</a></b> (🥈29 ·  ⭐ 2.4K · 💀) - Python Data Structures for Humans. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code>
 - <b><a href="https://github.com/podio/valideer">valideer</a></b> (🥉19 ·  ⭐ 240 · 💀) - Lightweight data validation and adaptation Python library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code>
-</details>
-<br>
-
-## Computer Vision
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 303 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 110K · 📋 10 - 20% open · ⏱️ 14.01.2021):
-
-	```
-	git clone https://github.com/jasmcaus/caer
-	```
-- [PyPi](https://pypi.org/project/caer) (📥 200K / month · 📦 100 · ⏱️ 14.01.2021):
-	```
-	pip install caer
-	```
 </details>
 <br>
 
@@ -1899,19 +1879,6 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 ## Machine Learning & Data Engineering
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 303 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 110K · 📋 10 - 20% open · ⏱️ 14.01.2021):
-
-	```
-	git clone https://github.com/jasmcaus/caer
-	```
-- [PyPi](https://pypi.org/project/caer) (📥 200K / month · 📦 100 · ⏱️ 14.01.2021):
-	```
-	pip install caer
-	```
-</details>
 
 🔗&nbsp;<b><a href="https://github.com/ml-tooling/best-of-ml-python">best-of-ml-python</a></b> ( ⭐ 98 · 🐣)  - A ranked list of awesome machine learning Python libraries. Updated..
 
