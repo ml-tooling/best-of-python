@@ -4,6 +4,8 @@ configuration:
   hide_empty_categories: True
 
 categories:
+  - category: "computer-vision"
+    title: "Computer/Machine Vision"
   - category: "serialization"
     title: "Data Serialization"
   - category: "data-structures"
@@ -68,6 +70,11 @@ labels:
   #   description: "Best-of list with Python projects"
 
 projects:
+  - name: caer
+    github_id: jasmcaus/caer
+    description: "A lightweight, scalable Computer Vision library. Scale your models, not boilerplate."
+    resource: True
+    category: computer-vision
   - name: best-of-web-python - Web UI
     github_id: ml-tooling/best-of-web-python
     description: "Collection of libraries to implement web-based UIs."
