@@ -36,6 +36,8 @@ categories:
     title: "Data Caching"
   - category: "gui-dev"
     title: "GUI Development"
+  - category: "computer-vision"
+    title: "Computer & Machine Vision"
   - category: "machine-learning"
     title: "Machine Learning & Data Engineering"
   - category: "audio"
@@ -68,6 +70,11 @@ labels:
   #   description: "Best-of list with Python projects"
 
 projects:
+  - name: caer
+    github_id: ml-tooling/best-of-ml-python
+    description: "Collection of computer vision and image processing libraries."
+    resource: True
+    category: computer-vision
   - name: best-of-web-python - Web UI
     github_id: ml-tooling/best-of-web-python
     description: "Collection of libraries to implement web-based UIs."
