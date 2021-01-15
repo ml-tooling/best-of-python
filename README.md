@@ -596,12 +596,12 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 301 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 303 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 110K · 📋 10 - 27% open · ⏱️ 14.01.2021):
+- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 110K · 📋 10 - 20% open · ⏱️ 14.01.2021):
 
 	```
-	git clone https://github.com/protocolbuffers/protobuf
+	git clone https://github.com/jasmcaus/caer
 	```
 - [PyPi](https://pypi.org/project/caer) (📥 200K / month · 📦 100 · ⏱️ 14.01.2021):
 	```
@@ -1900,12 +1900,12 @@ This curated list contains 230 awesome open-source projects with a total of 710K
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 301 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jasmcaus/caer">caer</a></b> (🥈30 ·  ⭐ 303 · 📈) - A lightweight, scalable Computer Vision library. Scale your models, not boilerplate.<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 100 · 📋 10 - 20% open · ⏱️ 14.01.2021):
+- [GitHub](https://github.com/https://github.com/jasmcaus/caer) (👨‍💻 3 · 🔀 45 · 📥 1.1M · 📦 110K · 📋 10 - 20% open · ⏱️ 14.01.2021):
 
 	```
-	git clone https://github.com/protocolbuffers/protobuf
+	git clone https://github.com/jasmcaus/caer
 	```
 - [PyPi](https://pypi.org/project/caer) (📥 200K / month · 📦 100 · ⏱️ 14.01.2021):
 	```
