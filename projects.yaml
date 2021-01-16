@@ -209,6 +209,11 @@ projects:
     category: configuration
     conda_id: conda-forge/hydra-core
     pypi_id: hydra
+  - name: Dynaconf
+    github_id: rochacbruno/dynaconf
+    category: configuration
+    conda_id: conda-forge/dynaconf
+    pypi_id: dynaconf
   - name: python-decouple
     github_id: henriquebastos/python-decouple
     category: configuration
