@@ -4,6 +4,10 @@
 ## Related Resources
 
 - [**Best-of lists**](https://best-of.org): Discover other best-of lists with awesome open-source projects on all kinds of topics.
+- [**best-of-ml-python**](https://github.com/ml-tooling/best-of-ml-python): A ranked list of awesome machine learning Python libraries.
+- [**best-of-web-python**](https://github.com/ml-tooling/best-of-web-python): A ranked list of awesome Python libraries for web development.
+- [**best-of-python-dev**](https://github.com/ml-tooling/best-of-python-dev): A ranked list of awesome Python developer tools and libraries.
+- [**awesome-python**](https://github.com/vinta/awesome-python): A curated list of awesome Python frameworks, libraries, software and resources.
 
 ## Contribution
 
