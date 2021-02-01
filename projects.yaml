@@ -1158,3 +1158,8 @@ projects:
     github_id: Erotemic/ubelt
     category: utilities
     pypi_id: ubelt
+  - name: PyMODM
+    pypi_id: pymodm
+    github_id: mongodb/pymodm
+    conda_id: conda-forge/pymodm
+    category: db-clients
