@@ -1134,6 +1134,10 @@ projects:
     category: db-clients
     conda_id: conda-forge/pynamodb
     pypi_id: pynamodb
+  - name: Hub
+    github_id: activeloopai/Hub
+    pypi_id: hub
+    category: db-clients
   - name: micropython
     github_id: micropython/micropython
     category: python-implementations
