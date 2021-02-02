@@ -1172,3 +1172,7 @@ projects:
     github_id: MongoEngine/mongoengine
     conda_id: conda-forge/mongoengine
     category: db-clients
+  - name: ODMantic
+    pypi_id: odmantic
+    github_id: art049/odmantic
+    category: db-clients
