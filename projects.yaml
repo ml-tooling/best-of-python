@@ -1167,3 +1167,8 @@ projects:
     pypi_id: umongo
     github_id: Scille/umongo
     category: db-clients
+  - name: MongoEngine
+    pypi_id: mongoengine
+    github_id: MongoEngine/mongoengine
+    conda_id: conda-forge/mongoengine
+    category: db-clients
