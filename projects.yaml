@@ -1176,3 +1176,23 @@ projects:
     pypi_id: odmantic
     github_id: art049/odmantic
     category: db-clients
+  - name: piccolos
+    github_id: piccolo-orm/piccolo
+    category: db-clients
+    pypi_id: piccolo
+  - name: tortoise-orm
+    github_id: tortoise/tortoise-orm
+    category: db-clients
+    pypi_id: tortoise-orm
+  - name: alembic
+    github_id: sqlalchemy/alembic
+    category: db-clients
+    conda_id: conda-forge/alembic
+    pypi_id: alembic
+  - name: gino
+    github_id: python-gino/gino
+    category: db-clients
+    pypi_id: gino
+  - name: psycopg3
+    github_id: psycopg/psycopg3
+    category: db-clients
