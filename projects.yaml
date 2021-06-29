@@ -95,6 +95,11 @@ projects:
     github_id: ml-tooling/best-of-ml-python
     resource: True
     category: machine-learning
+  - name: python-patterns
+    github_id: faif/python-patterns
+    description: "Collection of design patterns/idioms in Python"
+    resource: True
+    category: algorithms
   - name: python-fire
     github_id: google/python-fire
     category: cli-helpers
@@ -144,6 +149,35 @@ projects:
     github_id: grantjenks/python-sortedcontainers
     category: "data-structures"
     pypi_id: sortedcontainers
+  - name: janus
+    github_id: aio-libs/janus
+    category: data-structures
+    conda_id: conda-forge/janus
+    pypi_id: janus
+  - name: anytree
+    github_id: c0fec0de/anytree
+    category: data-structures
+    conda_id: conda-forge/anytree
+    pypi_id: anytree
+  - name: sqlitedict
+    github_id: RaRe-Technologies/sqlitedict
+    category: data-structures
+    conda_id: conda-forge/sqlitedict
+    pypi_id: sqlitedict
+  - name: cleverdict
+    github_id: PFython/cleverdict
+    category: data-structures
+    pypi_id: cleverdict
+  - name: python-benedict
+    github_id: fabiocaccamo/python-benedict
+    category: data-structures
+    conda_id: conda-forge/python-benedict
+    pypi_id: python-benedict
+  - name: bidict
+    github_id: jab/bidict
+    category: data-structures
+    conda_id: conda-forge/bidict
+    pypi_id: bidict
   - name: PyPattyrn
     github_id: tylerlaberge/PyPattyrn
     category: algorithms
@@ -157,6 +191,9 @@ projects:
     github_id: ChrisKnott/Eel
     category: gui-dev
     pypi_id: eel
+  - name: Phoenix
+    github_id: wxWidgets/Phoenix
+    category: gui-dev
   - name: enaml
     github_id: nucleic/enaml
     category: gui-dev
@@ -186,6 +223,10 @@ projects:
     github_id: hoffstadt/DearPyGui
     category: gui-dev
     pypi_id: dearpygui
+  - name: python-email-validator
+    github_id: JoshData/python-email-validator
+    category: data-validation
+    pypi_id: email-validator
   - name: jsonschema
     github_id: Julian/jsonschema
     category: data-validation
@@ -308,6 +349,19 @@ projects:
     github_id: emre/storm
     category: infrastructure
     pypi_id: storm
+  - name: pulumi
+    github_id: pulumi/pulumi
+    category: infrastructure
+    pypi_id: pulumi
+  - name: plumbum
+    github_id: tomerfiliba/plumbum
+    category: infrastructure
+    conda_id: conda-forge/plumbum
+    pypi_id: plumbum
+  - name: netmiko
+    github_id: ktbyers/netmiko
+    category: infrastructure
+    pypi_id: netmiko
   - name: wssh
     github_id: aluzzardi/wssh
     category: infrastructure
@@ -353,16 +407,50 @@ projects:
     category: async
     conda_id: conda-forge/uvloop
     pypi_id: uvloop
+  - name: anyio
+    github_id: agronholm/anyio
+    category: async
+    conda_id: conda-forge/anyio
+    pypi_id: anyio
+  - name: unsync
+    github_id: alex-sherman/unsync
+    category: async
+    pypi_id: unsync
+  - name: aiomisc
+    github_id: aiokitchen/aiomisc
+    category: async
+    pypi_id: aiomisc
   - name: greenlet
     github_id: python-greenlet/greenlet
     category: async
     conda_id: conda-forge/greenlet
     pypi_id: greenlet
+  - name: cached-property
+    github_id: pydanny/cached-property
+    category: caching
+    conda_id: conda-forge/cached-property
+    pypi_id: cached-property
+  - name: aiocache
+    github_id: aio-libs/aiocache
+    category: caching
+    pypi_id: aiocache
+  - name: cachier
+    github_id: shaypal5/cachier
+    category: caching
+    pypi_id: cachier
   - name: cachetools
     github_id: tkem/cachetools
     category: caching
     conda_id: conda-forge/cachetools
     pypi_id: cachetools
+  - name: questionary
+    github_id: tmbo/questionary
+    category: cli-helpers
+    pypi_id: questionary
+  - name: docopt-ng
+    github_id: jazzband/docopt-ng
+    category: cli-helpers
+    pypi_id: docopt-ng
   - name: colorama
     github_id: tartley/colorama
     category: cli-helpers
@@ -433,6 +521,15 @@ projects:
     category: compatibility
     conda_id: conda-forge/contextlib2
     pypi_id: contextlib2
+  - name: gin-config
+    github_id: google/gin-config
+    category: configuration
+    pypi_id: gin-config
+  - name: python-dotenv
+    github_id: theskumar/python-dotenv
+    category: configuration
+    conda_id: conda-forge/python-dotenv
+    pypi_id: python-dotenv
   - name: traitlets
     github_id: ipython/traitlets
     category: configuration
@@ -901,6 +998,10 @@ projects:
     conda_id: conda-forge/typing_inspect
     pypi_id: typing_inspect
   # Database Clients
+  - name: gsheets-db-api
+    github_id: betodealmeida/gsheets-db-api
+    category: db-clients
+    pypi_id: gsheetsdb
   - name: mongo-connector
     pypi_id: mongo-connector
     github_id: yougov/mongo-connector
@@ -1200,6 +1301,11 @@ projects:
     github_id: psycopg/psycopg3
     category: db-clients
   # Data Loading & Extraction
+  - name: gdown
+    github_id: wkentaro/gdown
+    category: data-loading
+    conda_id: conda-forge/gdown
+    pypi_id: gdown
   - name: Datasets
     pypi_id: datasets
     github_id: huggingface/datasets
@@ -1325,3 +1431,34 @@ projects:
     github_id: python-excel/xlrd
     conda_id: conda-forge/xlrd
     category: data-loading
+  - name: pyscaffold
+    github_id: pyscaffold/pyscaffold
+    category: others
+    conda_id: conda-forge/pyscaffold
+    pypi_id: pyscaffold
+  - name: fastcore
+    github_id: fastai/fastcore
+    category: others
+    pypi_id: fastcore
+  - name: hickle
+    github_id: telegraphic/hickle
+    category: serialization
+    conda_id: conda-forge/hickle
+    pypi_id: hickle
+  - name: millify
+    github_id: azaitsev/millify
+    category: text-data
+    pypi_id: millify
+  - name: coolname
+    github_id: alexanderlukanin13/coolname
+    category: text-data
+    conda_id: conda-forge/coolname
+    pypi_id: coolname
+  - name: pinject
+    github_id: google/pinject
+    category: utilities
+    pypi_id: pinject
+  - name: python-dependency-injector
+    github_id: ets-labs/python-dependency-injector
+    category: utilities
+    pypi_id: dependency-injector
