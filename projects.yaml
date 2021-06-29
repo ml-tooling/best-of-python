@@ -1447,11 +1447,11 @@ projects:
     pypi_id: hickle
   - name: millify
     github_id: azaitsev/millify
-    category: text-data
+    category: text
     pypi_id: millify
   - name: coolname
     github_id: alexanderlukanin13/coolname
-    category: text-data
+    category: text
     conda_id: conda-forge/coolname
     pypi_id: coolname
   - name: pinject
