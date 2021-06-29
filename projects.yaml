@@ -1048,7 +1048,7 @@ projects:
     category: db-clients
   - name: py2neo
     pypi_id: py2neo
-    github_id: technige/py2neo
+    github_id: py2neo-org/py2neo
     conda_id: conda-forge/py2neo
     category: db-clients
   - name: lazydata
@@ -1136,7 +1136,7 @@ projects:
     category: db-clients
   - name: Records
     pypi_id: records
-    github_id: kennethreitz42/records
+    github_id: kennethreitz/records
     conda_id: conda-forge/records
     category: db-clients
   - name: PugSQL
@@ -1444,6 +1444,7 @@ projects:
     github_id: telegraphic/hickle
     category: serialization
     conda_id: conda-forge/hickle
+    license: MIT
     pypi_id: hickle
   - name: millify
     github_id: azaitsev/millify
