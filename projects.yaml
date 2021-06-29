@@ -1463,3 +1463,24 @@ projects:
     github_id: ets-labs/python-dependency-injector
     category: utilities
     pypi_id: dependency-injector
+  - name: phonenumbers
+    pypi_id: phonenumbers
+    github_id: daviddrysdale/python-phonenumbers
+    conda_id: conda-forge/phonenumbers
+    category: text
+  - name: pyahocorasick
+    pypi_id: pyahocorasick
+    github_id: WojciechMula/pyahocorasick
+    conda_id: conda-forge/pyahocorasick
+    category: text
+  - name: inflect
+    pypi_id: inflect
+    github_id: jaraco/inflect
+    conda_id: conda-forge/inflect
+    category: text
+  - name: best-of-ml-python - NLP
+    github_id: ml-tooling/best-of-ml-python
+    homepage: https://github.com/ml-tooling/best-of-ml-python#text-data--nlp
+    description: "Collection of text processing and NLP libraries."
+    resource: True
+    category: text
