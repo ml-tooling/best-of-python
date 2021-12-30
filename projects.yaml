@@ -1300,6 +1300,10 @@ projects:
   - name: psycopg3
     github_id: psycopg/psycopg3
     category: db-clients
+  - name: prisma
+    github_id: RobertCraigie/prisma-client-py
+    category: db-clients
+    pypi_id: prisma
   # Data Loading & Extraction
   - name: gdown
     github_id: wkentaro/gdown
