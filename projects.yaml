@@ -75,30 +75,30 @@ labels:
 projects:
   - name: best-of-ml-python - Computer Vision
     github_id: ml-tooling/best-of-ml-python
-    description: "Collection of computer vision and image processing libraries."
-    resource: True
+    description: Collection of computer vision and image processing libraries.
+    resource: true
     category: computer-vision
   - name: best-of-web-python - Web UI
     github_id: ml-tooling/best-of-web-python
-    description: "Collection of libraries to implement web-based UIs."
-    resource: True
+    description: Collection of libraries to implement web-based UIs.
+    resource: true
     category: gui-dev
   - name: best-of-python-dev
     github_id: ml-tooling/best-of-python-dev
-    resource: True
+    resource: true
     category: dev-utils
   - name: best-of-web-python
     github_id: ml-tooling/best-of-web-python
-    resource: True
+    resource: true
     category: web-dev
   - name: best-of-ml-python
     github_id: ml-tooling/best-of-ml-python
-    resource: True
+    resource: true
     category: machine-learning
   - name: python-patterns
     github_id: faif/python-patterns
-    description: "Collection of design patterns/idioms in Python"
-    resource: True
+    description: Collection of design patterns/idioms in Python
+    resource: true
     category: algorithms
   - name: python-fire
     github_id: google/python-fire
@@ -109,6 +109,7 @@ projects:
     github_id: prompt-toolkit/python-prompt-toolkit
     category: cli-helpers
     pypi_id: prompt_toolkit
+    conda_id: conda-forge/prompt-toolkit
   - name: asciimatics
     github_id: peterbrittain/asciimatics
     category: cli-helpers
@@ -119,7 +120,7 @@ projects:
     category: cli-helpers
     pypi_id: bashplotlib
   - name: rich
-    github_id: willmcgugan/rich
+    github_id: Textualize/rich
     category: cli-helpers
     pypi_id: rich
     conda_id: conda-forge/rich
@@ -132,6 +133,7 @@ projects:
     github_id: TkTech/pysimdjson
     category: serialization
     pypi_id: pysimdjson
+    conda_id: conda-forge/pysimdjson
   - name: python-rapidjson
     github_id: python-rapidjson/python-rapidjson
     category: serialization
@@ -141,29 +143,32 @@ projects:
     github_id: ultrajson/ultrajson
     category: serialization
     pypi_id: ujson
+    conda_id: conda-forge/ujson
   - name: algorithms
     github_id: keon/algorithms
     category: algorithms
     pypi_id: algorithms
+    conda_id: conda-forge/algorithms
   - name: python-sortedcontainers
     github_id: grantjenks/python-sortedcontainers
-    category: "data-structures"
+    category: data-structures
     pypi_id: sortedcontainers
+    conda_id: conda-forge/sortedcontainers
   - name: janus
     github_id: aio-libs/janus
     category: data-structures
-    conda_id: conda-forge/janus
     pypi_id: janus
+    conda_id: conda-forge/janus
   - name: anytree
     github_id: c0fec0de/anytree
     category: data-structures
-    conda_id: conda-forge/anytree
     pypi_id: anytree
+    conda_id: conda-forge/anytree
   - name: sqlitedict
     github_id: RaRe-Technologies/sqlitedict
     category: data-structures
-    conda_id: conda-forge/sqlitedict
     pypi_id: sqlitedict
+    conda_id: conda-forge/sqlitedict
   - name: cleverdict
     github_id: PFython/cleverdict
     category: data-structures
@@ -171,13 +176,13 @@ projects:
   - name: python-benedict
     github_id: fabiocaccamo/python-benedict
     category: data-structures
-    conda_id: conda-forge/python-benedict
     pypi_id: python-benedict
+    conda_id: conda-forge/python-benedict
   - name: bidict
     github_id: jab/bidict
     category: data-structures
-    conda_id: conda-forge/bidict
     pypi_id: bidict
+    conda_id: conda-forge/bidict
   - name: PyPattyrn
     github_id: tylerlaberge/PyPattyrn
     category: algorithms
@@ -194,6 +199,8 @@ projects:
   - name: Phoenix
     github_id: wxWidgets/Phoenix
     category: gui-dev
+    pypi_id: wx
+    conda_id: conda-forge/wxpython
   - name: enaml
     github_id: nucleic/enaml
     category: gui-dev
@@ -211,14 +218,16 @@ projects:
     conda_id: conda-forge/gooey
   - name: PySimpleGUI
     github_id: PySimpleGUI/PySimpleGUI
+    description: PySimpleGUI is a Python package that enables Python programmers of
+      all levels to create GUIs
     category: gui-dev
     pypi_id: pysimplegui
     conda_id: conda-forge/pysimplegui
-    description: "PySimpleGUI is a Python package that enables Python programmers of all levels to create GUIs"
   - name: toga
     github_id: beeware/toga
     category: gui-dev
     pypi_id: toga
+    npm_id: '@pybee/toga'
   - name: DearPyGui
     github_id: hoffstadt/DearPyGui
     category: gui-dev
@@ -227,6 +236,7 @@ projects:
     github_id: JoshData/python-email-validator
     category: data-validation
     pypi_id: email-validator
+    conda_id: conda-forge/email-validator
   - name: jsonschema
     github_id: Julian/jsonschema
     category: data-validation
@@ -246,18 +256,18 @@ projects:
     github_id: DiffSK/configobj
     category: configuration
     pypi_id: configobj
-    license: BSD-3-Clause
     conda_id: conda-forge/configobj
+    license: BSD-3-Clause
   - name: hydra
     github_id: facebookresearch/hydra
     category: configuration
-    conda_id: conda-forge/hydra-core
     pypi_id: hydra
+    conda_id: conda-forge/hydra-core
   - name: Dynaconf
     github_id: rochacbruno/dynaconf
     category: configuration
-    conda_id: conda-forge/dynaconf
     pypi_id: dynaconf
+    conda_id: conda-forge/dynaconf
   - name: python-decouple
     github_id: henriquebastos/python-decouple
     category: configuration
@@ -267,8 +277,8 @@ projects:
     github_id: paramiko/paramiko
     category: infrastructure
     pypi_id: paramiko
-    show: True
     conda_id: conda-forge/paramiko
+    show: true
   - name: beaker
     github_id: bbangert/beaker
     category: caching
@@ -288,6 +298,7 @@ projects:
     github_id: pyfilesystem/pyfilesystem2
     category: file-path-utils
     pypi_id: fs
+    conda_id: conda-forge/fs
   - name: Unipath
     github_id: mikeorr/Unipath
     category: file-path-utils
@@ -353,11 +364,12 @@ projects:
     github_id: pulumi/pulumi
     category: infrastructure
     pypi_id: pulumi
+    npm_id: '@pulumi/pulumi'
   - name: plumbum
     github_id: tomerfiliba/plumbum
     category: infrastructure
-    conda_id: conda-forge/plumbum
     pypi_id: plumbum
+    conda_id: conda-forge/plumbum
   - name: netmiko
     github_id: ktbyers/netmiko
     category: infrastructure
@@ -365,6 +377,7 @@ projects:
   - name: wssh
     github_id: aluzzardi/wssh
     category: infrastructure
+    pypi_id: wssh
   - name: funcy
     github_id: Suor/funcy
     category: utilities
@@ -405,17 +418,18 @@ projects:
   - name: uvloop
     github_id: MagicStack/uvloop
     category: async
-    conda_id: conda-forge/uvloop
     pypi_id: uvloop
+    conda_id: conda-forge/uvloop
   - name: anyio
     github_id: agronholm/anyio
     category: async
-    conda_id: conda-forge/anyio
     pypi_id: anyio
+    conda_id: conda-forge/anyio
   - name: unsync
     github_id: alex-sherman/unsync
     category: async
     pypi_id: unsync
+    conda_id: conda-forge/unsync
   - name: aiomisc
     github_id: aiokitchen/aiomisc
     category: async
@@ -423,13 +437,13 @@ projects:
   - name: greenlet
     github_id: python-greenlet/greenlet
     category: async
-    conda_id: conda-forge/greenlet
     pypi_id: greenlet
+    conda_id: conda-forge/greenlet
   - name: cached-property
     github_id: pydanny/cached-property
     category: caching
-    conda_id: conda-forge/cached-property
     pypi_id: cached-property
+    conda_id: conda-forge/cached-property
   - name: aiocache
     github_id: aio-libs/aiocache
     category: caching
@@ -441,12 +455,13 @@ projects:
   - name: cachetools
     github_id: tkem/cachetools
     category: caching
-    conda_id: conda-forge/cachetools
     pypi_id: cachetools
+    conda_id: conda-forge/cachetools
   - name: questionary
     github_id: tmbo/questionary
     category: cli-helpers
     pypi_id: questionary
+    conda_id: conda-forge/questionary
   - name: docopt-ng
     github_id: jazzband/docopt-ng
     category: cli-helpers
@@ -454,439 +469,447 @@ projects:
   - name: colorama
     github_id: tartley/colorama
     category: cli-helpers
-    conda_id: conda-forge/colorama
     pypi_id: colorama
+    conda_id: conda-forge/colorama
   - name: emoji
     github_id: carpedm20/emoji
     category: cli-helpers
-    conda_id: conda-forge/emoji
     pypi_id: emoji
+    conda_id: conda-forge/emoji
   - name: blessings
     github_id: erikrose/blessings
     category: cli-helpers
-    conda_id: conda-forge/blessings
     pypi_id: blessings
+    conda_id: conda-forge/blessings
   - name: argcomplete
     github_id: kislyuk/argcomplete
     category: cli-helpers
-    conda_id: conda-forge/argcomplete
     pypi_id: argcomplete
+    conda_id: conda-forge/argcomplete
   - name: cleo
     github_id: sdispater/cleo
     category: cli-helpers
-    conda_id: conda-forge/cleo
     pypi_id: cleo
+    conda_id: conda-forge/cleo
   - name: ConfigArgParse
     github_id: bw2/ConfigArgParse
     category: cli-helpers
-    conda_id: conda-forge/configargparse
     pypi_id: configargparse
+    conda_id: conda-forge/configargparse
   - name: wcwidth
     github_id: jquast/wcwidth
     category: cli-helpers
-    conda_id: conda-forge/wcwidth
     pypi_id: wcwidth
+    conda_id: conda-forge/wcwidth
   - name: typing
     github_id: python/typing
     category: compatibility
-    conda_id: conda-forge/typing
     pypi_id: typing
+    conda_id: conda-forge/typing
   - name: six
     github_id: benjaminp/six
     category: compatibility
-    conda_id: conda-forge/six
     pypi_id: six
+    conda_id: conda-forge/six
   - name: dataclasses
     github_id: ericvsmith/dataclasses
     category: compatibility
-    conda_id: conda-forge/dataclasses
     pypi_id: dataclasses
+    conda_id: conda-forge/dataclasses
   - name: futures
     github_id: agronholm/pythonfutures
     category: compatibility
-    conda_id: conda-forge/futures
     pypi_id: futures
+    conda_id: conda-forge/futures
   - name: pathlib2
-    github_id: mcmtroffaes/pathlib2
+    github_id: jazzband/pathlib2
     category: compatibility
-    conda_id: conda-forge/pathlib2
     pypi_id: pathlib2
+    conda_id: conda-forge/pathlib2
   - name: future
     github_id: PythonCharmers/python-future
     category: compatibility
-    conda_id: conda-forge/future
     pypi_id: future
+    conda_id: conda-forge/future
   - name: contextlib2
     github_id: jazzband/contextlib2
     category: compatibility
-    conda_id: conda-forge/contextlib2
     pypi_id: contextlib2
+    conda_id: conda-forge/contextlib2
   - name: gin-config
     github_id: google/gin-config
     category: configuration
     pypi_id: gin-config
+    conda_id: conda-forge/gin-config
   - name: python-dotenv
     github_id: theskumar/python-dotenv
     category: configuration
-    conda_id: conda-forge/python-dotenv
     pypi_id: python-dotenv
+    conda_id: conda-forge/python-dotenv
   - name: traitlets
     github_id: ipython/traitlets
     category: configuration
-    conda_id: conda-forge/traitlets
     pypi_id: traitlets
+    conda_id: conda-forge/traitlets
   - name: pycryptodomex
     github_id: Legrandin/pycryptodome
     category: cryptography
-    conda_id: conda-forge/pycryptodomex
     pypi_id: pycryptodomex
+    conda_id: conda-forge/pycryptodomex
   - name: bcrypt
     github_id: pyca/bcrypt
     category: cryptography
-    conda_id: conda-forge/bcrypt
     pypi_id: bcrypt
+    conda_id: conda-forge/bcrypt
   - name: keyring
     github_id: jaraco/keyring
     category: cryptography
-    conda_id: conda-forge/keyring
     pypi_id: keyring
+    conda_id: conda-forge/keyring
   - name: asn1crypto
     github_id: wbond/asn1crypto
     category: cryptography
-    conda_id: conda-forge/asn1crypto
     pypi_id: asn1crypto
+    conda_id: conda-forge/asn1crypto
   - name: rsa
     github_id: sybrenstuvel/python-rsa
     category: cryptography
-    conda_id: conda-forge/rsa
     pypi_id: rsa
+    conda_id: conda-forge/rsa
   - name: addict
     github_id: mewwts/addict
     category: data-structures
-    conda_id: conda-forge/addict
     pypi_id: addict
+    conda_id: conda-forge/addict
   - name: python-box
     github_id: cdgriffith/Box
     category: data-structures
-    conda_id: conda-forge/python-box
     pypi_id: python-box
+    conda_id: conda-forge/python-box
   - name: pyrsistent
     github_id: tobgu/pyrsistent
     category: data-structures
-    conda_id: conda-forge/pyrsistent
     pypi_id: pyrsistent
+    conda_id: conda-forge/pyrsistent
   - name: immutables
     github_id: MagicStack/immutables
     category: data-structures
-    conda_id: conda-forge/immutables
     pypi_id: immutables
+    conda_id: conda-forge/immutables
   - name: munch
     github_id: Infinidat/munch
     category: data-structures
-    conda_id: conda-forge/munch
     pypi_id: munch
+    conda_id: conda-forge/munch
   - name: multidict
     github_id: aio-libs/multidict
     category: data-structures
-    conda_id: conda-forge/multidict
     pypi_id: multidict
+    conda_id: conda-forge/multidict
   - name: validators
     github_id: kvesteri/validators
     category: data-validation
-    conda_id: conda-forge/validators
     pypi_id: validators
+    conda_id: conda-forge/validators
   - name: pendulum
     github_id: sdispater/pendulum
     category: date-time-utils
-    conda_id: conda-forge/pendulum
     pypi_id: pendulum
+    conda_id: conda-forge/pendulum
   - name: dateparser
     github_id: scrapinghub/dateparser
     category: date-time-utils
-    conda_id: conda-forge/dateparser
     pypi_id: dateparser
+    conda_id: conda-forge/dateparser
   - name: python-dateutil
     github_id: dateutil/dateutil
     category: date-time-utils
+    pypi_id: python-dateutil
     conda_id: conda-forge/python-dateutil
     license: Apache-2.0
-    pypi_id: python-dateutil
   - name: parsedatetime
     github_id: bear/parsedatetime
     category: date-time-utils
-    conda_id: conda-forge/parsedatetime
     pypi_id: parsedatetime
+    conda_id: conda-forge/parsedatetime
   - name: holidays
     github_id: dr-prodigy/python-holidays
     category: date-time-utils
-    conda_id: conda-forge/holidays
     pypi_id: holidays
+    conda_id: conda-forge/holidays
   - name: pytz
     github_id: stub42/pytz
     category: date-time-utils
-    conda_id: conda-forge/pytz
     pypi_id: pytz
+    conda_id: conda-forge/pytz
   - name: tzlocal
     github_id: regebro/tzlocal
     category: date-time-utils
-    conda_id: conda-forge/tzlocal
     pypi_id: tzlocal
+    conda_id: conda-forge/tzlocal
   - name: isodate
     github_id: gweis/isodate
     category: date-time-utils
-    conda_id: conda-forge/isodate
     pypi_id: isodate
+    conda_id: conda-forge/isodate
   - name: jmespath
     github_id: jmespath/jmespath.py
-    category: "file-formats"
-    conda_id: conda-forge/jmespath
+    category: file-formats
     pypi_id: jmespath
+    conda_id: conda-forge/jmespath
   - name: XlsxWriter
     github_id: jmcnamara/XlsxWriter
-    category: "file-formats"
-    conda_id: conda-forge/xlsxwriter
+    category: file-formats
     pypi_id: xlsxwriter
+    conda_id: conda-forge/xlsxwriter
   - name: aiofiles
     github_id: Tinche/aiofiles
     category: file-path-utils
-    conda_id: conda-forge/aiofiles
     pypi_id: aiofiles
+    conda_id: conda-forge/aiofiles
   - name: appdirs
     github_id: ActiveState/appdirs
     category: file-path-utils
-    conda_id: conda-forge/appdirs
     pypi_id: appdirs
+    conda_id: conda-forge/appdirs
   - name: scandir
     github_id: benhoyt/scandir
     category: file-path-utils
-    conda_id: conda-forge/scandir
     pypi_id: scandir
+    conda_id: conda-forge/scandir
   - name: filelock
-    github_id: benediktschmitt/py-filelock
+    github_id: tox-dev/py-filelock
     category: file-path-utils
-    conda_id: conda-forge/filelock
     pypi_id: filelock
+    conda_id: conda-forge/filelock
   - name: zipp
     github_id: jaraco/zipp
     category: file-path-utils
-    conda_id: conda-forge/zipp
     pypi_id: zipp
+    conda_id: conda-forge/zipp
   - name: ansible
     github_id: ansible/ansible
     category: infrastructure
-    conda_id: conda-forge/ansible
     pypi_id: ansible
+    conda_id: conda-forge/ansible
   - name: docker-compose
     github_id: docker/compose
     category: infrastructure
-    conda_id: conda-forge/docker-compose
     pypi_id: docker-compose
+    conda_id: conda-forge/docker-compose
   - name: docker
     github_id: docker/docker-py
     category: infrastructure
-    conda_id: conda-forge/docker-py
     pypi_id: docker
+    conda_id: conda-forge/docker-py
   - name: kubernetes
     github_id: kubernetes-client/python
     category: infrastructure
-    conda_id: conda-forge/kubernetes
     pypi_id: kubernetes
+    conda_id: conda-forge/kubernetes
   - name: botocore
     github_id: boto/botocore
     category: infrastructure
-    conda_id: conda-forge/botocore
     pypi_id: botocore
+    conda_id: conda-forge/botocore
   - name: awscli
     github_id: aws/aws-cli
     category: infrastructure
-    conda_id: conda-forge/awscli
     pypi_id: awscli
+    conda_id: conda-forge/awscli
   - name: deepdiff
     github_id: seperman/deepdiff
     category: inspect
-    conda_id: conda-forge/deepdiff
     pypi_id: deepdiff
+    conda_id: conda-forge/deepdiff
   - name: entrypoints
     github_id: takluyver/entrypoints
     category: inspect
-    conda_id: conda-forge/entrypoints
     pypi_id: entrypoints
+    conda_id: conda-forge/entrypoints
   - name: importlib-resources
     github_id: python/importlib_resources
     category: inspect
     pypi_id: importlib-resources
+    conda_id: conda-forge/importlib_resources
   - name: pycparser
     github_id: eliben/pycparser
     category: others
-    conda_id: conda-forge/pycparser
     pypi_id: pycparser
+    conda_id: conda-forge/pycparser
   - name: wrapt
     github_id: GrahamDumpleton/wrapt
     category: others
-    conda_id: conda-forge/wrapt
     pypi_id: wrapt
+    conda_id: conda-forge/wrapt
   - name: pyparsing
     github_id: pyparsing/pyparsing
     category: others
-    conda_id: conda-forge/pyparsing
     pypi_id: pyparsing
+    conda_id: conda-forge/pyparsing
   - name: py4j
     github_id: bartdag/py4j
     category: others
-    conda_id: conda-forge/py4j
     pypi_id: py4j
+    conda_id: conda-forge/py4j
   - name: pluggy
     github_id: pytest-dev/pluggy
     category: others
-    conda_id: conda-forge/pluggy
     pypi_id: pluggy
+    conda_id: conda-forge/pluggy
   - name: decorator
     github_id: micheles/decorator
     category: others
-    conda_id: conda-forge/decorator
     pypi_id: decorator
+    conda_id: conda-forge/decorator
   - name: Send2Trash
     github_id: arsenetar/send2trash
     category: others
-    conda_id: conda-forge/send2trash
     pypi_id: send2trash
+    conda_id: conda-forge/send2trash
   - name: Pygments
     github_id: pygments/pygments
     category: others
-    conda_id: conda-forge/pygments
     pypi_id: pygments
+    conda_id: conda-forge/pygments
   - name: supervisor
     github_id: Supervisor/supervisor
     category: process-utils
-    license: Repoze Public License
-    show: True
-    conda_id: conda-forge/supervisor
     pypi_id: supervisor
+    conda_id: conda-forge/supervisor
+    license: Repoze Public License
+    show: true
   - name: ptyprocess
     github_id: pexpect/ptyprocess
     category: process-utils
-    conda_id: conda-forge/ptyprocess
     pypi_id: ptyprocess
+    conda_id: conda-forge/ptyprocess
   - name: pexpect
     github_id: pexpect/pexpect
     category: process-utils
-    conda_id: conda-forge/pexpect
     pypi_id: pexpect
+    conda_id: conda-forge/pexpect
   - name: flatbuffers
     github_id: google/flatbuffers
     category: serialization
-    conda_id: conda-forge/flatbuffers
     pypi_id: flatbuffers
+    conda_id: conda-forge/flatbuffers
+    npm_id: flatbuffers
   - name: msgpack
     github_id: msgpack/msgpack-python
     category: serialization
-    conda_id: conda-forge/msgpack-python
     pypi_id: msgpack
+    conda_id: conda-forge/msgpack-python
   - name: PyYAML
     github_id: yaml/pyyaml
-    category: "file-formats"
-    conda_id: conda-forge/pyyaml
+    category: file-formats
     pypi_id: pyyaml
+    conda_id: conda-forge/pyyaml
   - name: jsonpickle
     github_id: jsonpickle/jsonpickle
     category: serialization
-    conda_id: conda-forge/jsonpickle
     pypi_id: jsonpickle
+    conda_id: conda-forge/jsonpickle
   - name: cloudpickle
     github_id: cloudpipe/cloudpickle
     category: serialization
+    pypi_id: cloudpickle
     conda_id: conda-forge/cloudpickle
     license: BSD-3-Clause
-    pypi_id: cloudpickle
   - name: pyasn1
     github_id: etingof/pyasn1
     category: serialization
-    conda_id: conda-forge/pyasn1
     pypi_id: pyasn1
+    conda_id: conda-forge/pyasn1
   - name: protobuf
     github_id: protocolbuffers/protobuf
     category: serialization
-    conda_id: conda-forge/protobuf
-    license: BSD-3-Clause
     pypi_id: protobuf
+    conda_id: conda-forge/protobuf
+    npm_id: google-protobuf
+    license: BSD-3-Clause
   - name: dill
     github_id: uqfoundation/dill
     category: serialization
-    conda_id: conda-forge/dill
     pypi_id: dill
+    conda_id: conda-forge/dill
   - name: sshtunnel
     github_id: pahaz/sshtunnel
     category: infrastructure
-    conda_id: conda-forge/sshtunnel
     pypi_id: sshtunnel
+    conda_id: conda-forge/sshtunnel
   - name: chardet
     github_id: chardet/chardet
     category: text
-    conda_id: conda-forge/chardet
     pypi_id: chardet
-    show: True
+    conda_id: conda-forge/chardet
+    npm_id: '@pypi/chardet'
+    show: true
   - name: humanize
     github_id: jmoiron/humanize
     category: text
-    conda_id: conda-forge/humanize
     pypi_id: humanize
+    conda_id: conda-forge/humanize
   - name: python-slugify
     github_id: un33k/python-slugify
     category: text
-    conda_id: conda-forge/python-slugify
     pypi_id: python-slugify
+    conda_id: conda-forge/python-slugify
   - name: boltons
     github_id: mahmoud/boltons
     category: utilities
-    conda_id: conda-forge/boltons
     pypi_id: boltons
+    conda_id: conda-forge/boltons
   - name: attrs
     github_id: python-attrs/attrs
     category: utilities
-    conda_id: conda-forge/attrs
     pypi_id: attrs
+    conda_id: conda-forge/attrs
   - name: toolz
     github_id: pytoolz/toolz
     category: utilities
-    conda_id: conda-forge/toolz
     pypi_id: toolz
+    conda_id: conda-forge/toolz
   - name: tenacity
     github_id: jd/tenacity
     category: utilities
-    conda_id: conda-forge/tenacity
     pypi_id: tenacity
+    conda_id: conda-forge/tenacity
   - name: more-itertools
     github_id: more-itertools/more-itertools
     category: utilities
-    conda_id: conda-forge/more-itertools
     pypi_id: more-itertools
+    conda_id: conda-forge/more-itertools
   - name: retrying
     github_id: rholder/retrying
     category: utilities
-    conda_id: conda-forge/retrying
     pypi_id: retrying
+    conda_id: conda-forge/retrying
   - name: natsort
     github_id: SethMMorton/natsort
     category: utilities
-    conda_id: conda-forge/natsort
     pypi_id: natsort
+    conda_id: conda-forge/natsort
   - name: ratelimit
     github_id: tomasbasham/ratelimit
     category: utilities
     pypi_id: ratelimit
+    conda_id: conda-forge/ratelimit
   - name: Typer
     github_id: tiangolo/typer
     category: cli-helpers
     pypi_id: typer
+    conda_id: conda-forge/typer
   - name: keyboard
     github_id: boppreh/keyboard
     category: os-utils
     pypi_id: keyboard
+    conda_id: conda-forge/keyboard
   - name: python-mss
     github_id: BoboTiG/python-mss
     category: os-utils
-    conda_id: conda-forge/python-mss
     pypi_id: mss
+    conda_id: conda-forge/python-mss
   - name: pyscreenshot
     github_id: ponty/pyscreenshot
     category: os-utils
@@ -894,28 +917,28 @@ projects:
   - name: diagrams
     github_id: mingrammer/diagrams
     category: others
-    conda_id: conda-forge/diagrams
     pypi_id: diagrams
+    conda_id: conda-forge/diagrams
   - name: catalogue
     github_id: explosion/catalogue
     category: others
-    conda_id: conda-forge/catalogue
     pypi_id: catalogue
+    conda_id: conda-forge/catalogue
   - name: pluginbase
     github_id: mitsuhiko/pluginbase
     category: others
-    conda_id: conda-forge/pluginbase
     pypi_id: pluginbase
+    conda_id: conda-forge/pluginbase
   - name: srsly
     github_id: explosion/srsly
     category: serialization
-    conda_id: conda-forge/srsly
     pypi_id: srsly
+    conda_id: conda-forge/srsly
   - name: orjson
     github_id: ijl/orjson
     category: serialization
-    conda_id: conda-forge/orjson
     pypi_id: orjson
+    conda_id: conda-forge/orjson
   - name: price-parser
     github_id: scrapinghub/price-parser
     category: text
@@ -923,8 +946,8 @@ projects:
   - name: awesome-slugify
     github_id: voronind/awesome-slugify
     category: text
-    conda_id: conda-forge/awesome-slugify
     pypi_id: awesome-slugify
+    conda_id: conda-forge/awesome-slugify
   - name: CommonRegex
     github_id: madisonmay/CommonRegex
     category: utilities
@@ -937,39 +960,42 @@ projects:
     github_id: dry-python/returns
     category: utilities
     pypi_id: returns
+    conda_id: conda-forge/returns
   - name: stopit
     github_id: glenfant/stopit
     category: async
-    conda_id: conda-forge/stopit
     pypi_id: stopit
+    conda_id: conda-forge/stopit
   - name: omegaconf
     github_id: omry/omegaconf
     category: configuration
-    conda_id: conda-forge/omegaconf
     pypi_id: omegaconf
+    conda_id: conda-forge/omegaconf
   - name: tink
     github_id: google/tink
     category: cryptography
     pypi_id: tink
+    npm_id: tink-crypto
   - name: ordered-set
-    github_id: LuminosoInsight/ordered-set
+    github_id: rspeer/ordered-set
     category: data-structures
-    conda_id: conda-forge/ordered-set
     pypi_id: ordered-set
+    conda_id: conda-forge/ordered-set
   - name: param
     github_id: holoviz/param
     category: data-validation
-    conda_id: conda-forge/param
     pypi_id: param
+    conda_id: conda-forge/param
   - name: typical
     github_id: seandstewart/typical
     category: data-validation
     pypi_id: typical
+    conda_id: conda-forge/typical
   - name: kivy
     github_id: kivy/kivy
     category: gui-dev
-    conda_id: conda-forge/kivy
     pypi_id: kivy
+    conda_id: conda-forge/kivy
   - name: pyinfra
     github_id: Fizzadar/pyinfra
     category: infrastructure
@@ -981,8 +1007,8 @@ projects:
   - name: schedule
     github_id: dbader/schedule
     category: infrastructure
-    conda_id: conda-forge/schedule
     pypi_id: schedule
+    conda_id: conda-forge/schedule
   - name: fabtools
     github_id: fabtools/fabtools
     category: infrastructure
@@ -990,222 +1016,229 @@ projects:
   - name: fabric
     github_id: fabric/fabric
     category: infrastructure
-    conda_id: conda-forge/fabric
     pypi_id: fabric
+    conda_id: conda-forge/fabric
   - name: typing_inspect
     github_id: ilevkivskyi/typing_inspect
     category: inspect
-    conda_id: conda-forge/typing_inspect
     pypi_id: typing_inspect
-  # Database Clients
+    conda_id: conda-forge/typing_inspect
   - name: gsheets-db-api
     github_id: betodealmeida/gsheets-db-api
     category: db-clients
     pypi_id: gsheetsdb
   - name: mongo-connector
-    pypi_id: mongo-connector
     github_id: yougov/mongo-connector
     category: db-clients
+    pypi_id: mongo-connector
   - name: SuperSQLite
-    pypi_id: supersqlite
     github_id: plasticityai/supersqlite
     category: db-clients
+    pypi_id: supersqlite
   - name: peewee
-    pypi_id: peewee
     github_id: coleifer/peewee
-    conda_id: conda-forge/peewee
     category: db-clients
+    pypi_id: peewee
+    conda_id: conda-forge/peewee
   - name: dataset
-    pypi_id: dataset
     github_id: pudo/dataset
     category: db-clients
+    pypi_id: dataset
+    conda_id: conda-forge/dataset
   - name: minio
-    pypi_id: minio
     github_id: minio/minio-py
+    category: db-clients
+    pypi_id: minio
     conda_id: conda-forge/minio
-    category: db-clients
   - name: pymongo
-    pypi_id: pymongo
     github_id: mongodb/mongo-python-driver
-    conda_id: conda-forge/pymongo
     category: db-clients
+    pypi_id: pymongo
+    conda_id: conda-forge/pymongo
   - name: db.py
-    pypi_id: db.py
     github_id: yhat/db.py
     category: db-clients
+    pypi_id: db.py
   - name: elasticsearch
-    pypi_id: elasticsearch
     github_id: elastic/elasticsearch-py
-    conda_id: conda-forge/elasticsearch
     category: db-clients
+    pypi_id: elasticsearch
+    conda_id: conda-forge/elasticsearch
   - name: Elasticsearch DSL
-    pypi_id: elasticsearch-dsl
     github_id: elastic/elasticsearch-dsl-py
     category: db-clients
+    pypi_id: elasticsearch-dsl
+    conda_id: anaconda/elasticsearch-dsl
   - name: neo4j-driver
-    pypi_id: neo4j-driver
     github_id: neo4j/neo4j-python-driver
     category: db-clients
+    pypi_id: neo4j-driver
+    conda_id: conda-forge/neo4j-python-driver
   - name: py2neo
-    pypi_id: py2neo
     github_id: py2neo-org/py2neo
-    conda_id: conda-forge/py2neo
     category: db-clients
+    pypi_id: py2neo
+    conda_id: conda-forge/py2neo
   - name: lazydata
-    pypi_id: lazydata
     github_id: rstojnic/lazydata
     category: db-clients
+    pypi_id: lazydata
   - name: redis
-    pypi_id: redis
-    github_id: andymccurdy/redis-py
+    github_id: redis/redis-py
     category: db-clients
+    pypi_id: redis
+    conda_id: conda-forge/redis-py
   - name: cx-Oracle
-    pypi_id: cx-Oracle
     github_id: oracle/python-cx_Oracle
     category: db-clients
+    pypi_id: cx-Oracle
+    conda_id: conda-forge/cx_oracle
   - name: kafka-python
-    pypi_id: kafka-python
     github_id: dpkp/kafka-python
-    conda_id: conda-forge/kafka-python
     category: db-clients
+    pypi_id: kafka-python
+    conda_id: conda-forge/kafka-python
   - name: confluent-kafka-python
-    pypi_id: confluent-kafka
     github_id: confluentinc/confluent-kafka-python
     category: db-clients
+    pypi_id: confluent-kafka
+    conda_id: conda-forge/python-confluent-kafka
   - name: PyMySQL
-    pypi_id: PyMySQL
     github_id: PyMySQL/PyMySQL
+    category: db-clients
+    pypi_id: PyMySQL
     conda_id: conda-forge/pymysql
-    category: db-clients
   - name: boto3
-    pypi_id: boto3
     github_id: boto/boto3
-    conda_id: conda-forge/boto3
     category: db-clients
+    pypi_id: boto3
+    conda_id: conda-forge/boto3
   - name: libcloud
-    pypi_id: apache-libcloud
     github_id: apache/libcloud
     category: db-clients
+    pypi_id: apache-libcloud
   - name: google-cloud-storage
-    pypi_id: google-cloud-storage
     github_id: googleapis/google-cloud-python
-    conda_id: conda-forge/google-cloud-storage
     category: db-clients
+    pypi_id: google-cloud-storage
+    conda_id: conda-forge/google-cloud-storage
   - name: filedepot
-    pypi_id: filedepot
     github_id: amol-/depot
     category: db-clients
+    pypi_id: filedepot
   - name: Prometheus Client
-    pypi_id: prometheus_client
     github_id: prometheus/client_python
+    category: db-clients
+    pypi_id: prometheus_client
     conda_id: conda-forge/prometheus_client
-    category: db-clients
   - name: cloudant
-    pypi_id: cloudant
     github_id: cloudant/python-cloudant
+    category: db-clients
+    pypi_id: cloudant
     conda_id: conda-forge/cloudant
-    category: db-clients
   - name: influxdb
-    pypi_id: influxdb
     github_id: influxdata/influxdb-python
+    category: db-clients
+    pypi_id: influxdb
     conda_id: conda-forge/influxdb
-    category: db-clients
   - name: pyodbc
-    pypi_id: pyodbc
     github_id: mkleehammer/pyodbc
+    category: db-clients
+    pypi_id: pyodbc
     conda_id: conda-forge/pyodbc
-    category: db-clients
   - name: pyhdb
+    github_id: SAP-archive/PyHDB
+    category: db-clients
     pypi_id: pyhdb
-    github_id: SAP/pyhdb
-    category: db-clients
   - name: SQLAlchemy
-    pypi_id: SQLAlchemy
     github_id: sqlalchemy/sqlalchemy
+    category: db-clients
+    pypi_id: SQLAlchemy
     conda_id: conda-forge/sqlalchemy
-    category: db-clients
   - name: AWS Data Wrangler
-    pypi_id: awswrangler
     github_id: awslabs/aws-data-wrangler
-    labels: ["pandas"]
     category: db-clients
+    pypi_id: awswrangler
+    conda_id: conda-forge/awswrangler
+    labels: ["pandas"]
   - name: psycopg2
-    pypi_id: psycopg2
-    conda_id: psycopg2
     github_id: psycopg/psycopg2
     category: db-clients
+    pypi_id: psycopg2
+    conda_id: psycopg2
   - name: Records
-    pypi_id: records
     github_id: kennethreitz/records
-    conda_id: conda-forge/records
     category: db-clients
+    pypi_id: records
+    conda_id: conda-forge/records
   - name: PugSQL
-    pypi_id: pugsql
     github_id: mcfunley/pugsql
     category: db-clients
+    pypi_id: pugsql
   - name: HappyBase
-    pypi_id: happybase
     github_id: python-happybase/happybase
+    category: db-clients
+    pypi_id: happybase
     conda_id: conda-forge/happybase
-    category: db-clients
   - name: Cassandra Driver
-    pypi_id: cassandra-driver
     github_id: datastax/python-driver
+    category: db-clients
+    pypi_id: cassandra-driver
     conda_id: conda-forge/cassandra-driver
-    category: db-clients
   - name: mysqlclient
-    pypi_id: mysqlclient
     github_id: PyMySQL/mysqlclient
+    category: db-clients
+    pypi_id: mysqlclient
     conda_id: conda-forge/mysqlclient
-    category: db-clients
   - name: Motor
-    pypi_id: motor
     github_id: mongodb/motor
+    category: db-clients
+    pypi_id: motor
     conda_id: conda-forge/motor
-    category: db-clients
   - name: Pony
-    pypi_id: pony
     github_id: ponyorm/pony
+    category: db-clients
+    pypi_id: pony
     conda_id: conda-forge/pony
-    category: db-clients
   - name: Ibis
-    pypi_id: ibis-framework
     github_id: ibis-project/ibis
+    category: db-clients
+    pypi_id: ibis-framework
     conda_id: conda-forge/ibis-framework
-    category: db-clients # data containers or pipeline?
   - name: pandas-gbq
+    github_id: googleapis/python-bigquery-pandas
+    category: db-clients
     pypi_id: pandas-gbq
-    github_id: pydata/pandas-gbq
     conda_id: conda-forge/pandas-gbq
-    category: db-clients
   - name: Databases
-    pypi_id: databases
     github_id: encode/databases
-    conda_id: conda-forge/databases
     category: db-clients
+    pypi_id: databases
+    conda_id: conda-forge/databases
   - name: python-bigquery
     github_id: googleapis/python-bigquery
-    pypi_id: google-cloud-bigquery
     category: db-clients
+    pypi_id: google-cloud-bigquery
+    conda_id: conda-forge/google-cloud-bigquery
   - name: Queries
     github_id: gmr/queries
-    pypi_id: queries
     category: db-clients
+    pypi_id: queries
   - name: pysolr
     github_id: django-haystack/pysolr
     category: db-clients
-    conda_id: conda-forge/pysolr
     pypi_id: pysolr
+    conda_id: conda-forge/pysolr
   - name: google-cloud-bigtable
     github_id: googleapis/python-bigtable
     category: db-clients
-    conda_id: conda-forge/google-cloud-bigtable
     pypi_id: google-cloud-bigtable
+    conda_id: conda-forge/google-cloud-bigtable
   - name: azure-storage-blob
     github_id: Azure/azure-sdk-for-python
     category: db-clients
-    conda_id: conda-forge/azure-storage-blob
     pypi_id: azure-storage-blob
+    conda_id: conda-forge/azure-storage-blob
   - name: pygsheets
     github_id: nithinmurali/pygsheets
     category: db-clients
@@ -1214,6 +1247,7 @@ projects:
     github_id: kayak/pypika
     category: db-clients
     pypi_id: pypika
+    conda_id: conda-forge/pypika
   - name: redis-py-cluster
     github_id: grokzen/redis-py-cluster
     category: db-clients
@@ -1221,29 +1255,31 @@ projects:
   - name: SQLAlchemy-Utils
     github_id: kvesteri/sqlalchemy-utils
     category: db-clients
-    conda_id: conda-forge/sqlalchemy-utils
     pypi_id: sqlalchemy-utils
+    conda_id: conda-forge/sqlalchemy-utils
   - name: s3transfer
     github_id: boto/s3transfer
     category: db-clients
-    conda_id: conda-forge/s3transfer
     pypi_id: s3transfer
+    conda_id: conda-forge/s3transfer
   - name: s3fs
-    github_id: dask/s3fs
+    github_id: fsspec/s3fs
     category: db-clients
-    conda_id: conda-forge/s3fs
     pypi_id: s3fs
+    conda_id: conda-forge/s3fs
   - name: PynamoDB
     github_id: pynamodb/PynamoDB
     category: db-clients
-    conda_id: conda-forge/pynamodb
     pypi_id: pynamodb
+    conda_id: conda-forge/pynamodb
   - name: micropython
     github_id: micropython/micropython
     category: python-implementations
+    pypi_id: micropython-_markupbase
   - name: grumpy
     github_id: google/grumpy
     category: python-implementations
+    pypi_id: grumpy-tools
   - name: pyston
     github_id: pyston/pyston
     category: python-implementations
@@ -1258,28 +1294,32 @@ projects:
     github_id: python/cpython
     category: python-implementations
     pypi_id: cpython
+    conda_id: conda-forge/typing
+    npm_id: '@buckpkg/python'
   - name: ubelt
     github_id: Erotemic/ubelt
     category: utilities
     pypi_id: ubelt
+    conda_id: conda-forge/ubelt
   - name: PyMODM
-    pypi_id: pymodm
     github_id: mongodb/pymodm
-    conda_id: conda-forge/pymodm
     category: db-clients
+    pypi_id: pymodm
+    conda_id: conda-forge/pymodm
   - name: umongo
-    pypi_id: umongo
     github_id: Scille/umongo
     category: db-clients
+    pypi_id: umongo
+    conda_id: conda-forge/umongo
   - name: MongoEngine
-    pypi_id: mongoengine
     github_id: MongoEngine/mongoengine
-    conda_id: conda-forge/mongoengine
     category: db-clients
+    pypi_id: mongoengine
+    conda_id: conda-forge/mongoengine
   - name: ODMantic
-    pypi_id: odmantic
     github_id: art049/odmantic
     category: db-clients
+    pypi_id: odmantic
   - name: piccolos
     github_id: piccolo-orm/piccolo
     category: db-clients
@@ -1288,37 +1328,38 @@ projects:
     github_id: tortoise/tortoise-orm
     category: db-clients
     pypi_id: tortoise-orm
+    conda_id: conda-forge/tortoise-orm
   - name: alembic
     github_id: sqlalchemy/alembic
     category: db-clients
-    conda_id: conda-forge/alembic
     pypi_id: alembic
+    conda_id: conda-forge/alembic
   - name: gino
     github_id: python-gino/gino
     category: db-clients
     pypi_id: gino
   - name: psycopg3
-    github_id: psycopg/psycopg3
+    github_id: psycopg/psycopg
     category: db-clients
   - name: prisma
     github_id: RobertCraigie/prisma-client-py
     category: db-clients
     pypi_id: prisma
-  # Data Loading & Extraction
   - name: gdown
     github_id: wkentaro/gdown
     category: data-loading
-    conda_id: conda-forge/gdown
     pypi_id: gdown
+    conda_id: conda-forge/gdown
   - name: Datasets
-    pypi_id: datasets
     github_id: huggingface/datasets
     category: data-loading
+    pypi_id: datasets
+    conda_id: conda-forge/datasets
   - name: tabulator-py
     github_id: frictionlessdata/tabulator-py
     category: data-loading
-    conda_id: conda-forge/tabulator-py
     pypi_id: tabulator
+    conda_id: conda-forge/tabulator-py
   - name: messytables
     github_id: okfn/messytables
     category: data-loading
@@ -1334,8 +1375,8 @@ projects:
   - name: deepdish
     github_id: uchicago-cs/deepdish
     category: data-loading
-    conda_id: conda-forge/deepdish
     pypi_id: deepdish
+    conda_id: conda-forge/deepdish
   - name: camelot
     github_id: camelot-dev/camelot
     category: data-loading
@@ -1347,109 +1388,105 @@ projects:
   - name: xlwings
     github_id: xlwings/xlwings
     category: data-loading
-    conda_id: conda-forge/xlwings
     pypi_id: xlwings
+    conda_id: conda-forge/xlwings
   - name: csvs-to-sqlite
     github_id: simonw/csvs-to-sqlite
     category: data-loading
     pypi_id: csvs-to-sqlite
   - name: Tablib
-    pypi_id: tablib
     github_id: jazzband/tablib
+    category: data-loading
+    pypi_id: tablib
     conda_id: conda-forge/tablib
-    category: data-loading
   - name: python-magic
-    pypi_id: python-magic
     github_id: ahupp/python-magic
-    conda_id: conda-forge/python-magic
     category: data-loading
+    pypi_id: python-magic
+    conda_id: conda-forge/python-magic
   - name: SDV
-    pypi_id: sdv
     github_id: sdv-dev/SDV
     category: data-loading
+    pypi_id: sdv
+    conda_id: conda-forge/sdv
   - name: Intake
-    pypi_id: intake
     github_id: intake/intake
+    category: data-loading
+    pypi_id: intake
     conda_id: conda-forge/intake
-    category: data-loading
   - name: csvkit
-    pypi_id: csvkit
     github_id: wireservice/csvkit
+    category: data-loading
+    pypi_id: csvkit
     conda_id: conda-forge/csvkit
-    category: data-loading
   - name: snorkel
-    pypi_id: snorkel
     github_id: snorkel-team/snorkel
+    category: data-loading
+    pypi_id: snorkel
     conda_id: conda-forge/snorkel
-    category: data-loading
   - name: pyexcel-xlsx
-    pypi_id: pyexcel-xlsx
     github_id: pyexcel/pyexcel-xlsx
+    category: data-loading
+    pypi_id: pyexcel-xlsx
     conda_id: conda-forge/pyexcel-xlsx
-    category: data-loading
   - name: Faker
-    pypi_id: Faker
     github_id: joke2k/faker
-    conda_id: conda-forge/faker
     category: data-loading
+    pypi_id: Faker
+    conda_id: conda-forge/faker
   - name: smart-open
-    pypi_id: smart-open
     github_id: RaRe-Technologies/smart_open
     category: data-loading
+    pypi_id: smart-open
+    conda_id: conda-forge/smart_open
   - name: pandas-datareader
-    pypi_id: pandas-datareader
     github_id: pydata/pandas-datareader
+    category: data-loading
+    pypi_id: pandas-datareader
     conda_id: conda-forge/pandas-datareader
-    category: data-loading
-  - name: openpyxl
-    pypi_id: openpyxl
-    gitlab_id: "https://foss.heptapod.net/api/graphql::openpyxl/openpyxl"
-    conda_id: openpyxl
-    dockerhub_id: "openpyxl/openpyxl-ci"
-    docs_url: https://openpyxl.readthedocs.io/en/stable/
-    license: MIT
-    category: data-loading
   - name: textract
-    pypi_id: textract
     github_id: deanmalmgren/textract
-    conda_id: conda-forge/textract
     category: data-loading
+    pypi_id: textract
+    conda_id: conda-forge/textract
   - name: PDFMiner
-    pypi_id: pdfminer
-    conda_id: conda-forge/pdfminer
     github_id: euske/pdfminer
     category: data-loading
+    pypi_id: pdfminer
+    conda_id: conda-forge/pdfminer
   - name: xmltodict
-    pypi_id: xmltodict
     github_id: martinblech/xmltodict
+    category: data-loading
+    pypi_id: xmltodict
     conda_id: conda-forge/xmltodict
-    category: data-loading
   - name: Singer
-    pypi_id: singer-python
     github_id: singer-io/getting-started
-    description: "Standard for moving data between databases, web APIs, files, queues, and just about anything else you can think of."
+    description: Standard for moving data between databases, web APIs, files, queues,
+      and just about anything else you can think of.
+    category: data-loading
+    pypi_id: singer-python
     license: AGPL-3.0
-    category: data-loading
   - name: xlrd
-    pypi_id: xlrd
     github_id: python-excel/xlrd
-    conda_id: conda-forge/xlrd
     category: data-loading
+    pypi_id: xlrd
+    conda_id: conda-forge/xlrd
   - name: pyscaffold
     github_id: pyscaffold/pyscaffold
     category: others
-    conda_id: conda-forge/pyscaffold
     pypi_id: pyscaffold
+    conda_id: conda-forge/pyscaffold
   - name: fastcore
     github_id: fastai/fastcore
     category: others
     pypi_id: fastcore
+    conda_id: conda-forge/fastcore
   - name: hickle
     github_id: telegraphic/hickle
     category: serialization
+    pypi_id: hickle
     conda_id: conda-forge/hickle
     license: MIT
-    pypi_id: hickle
   - name: millify
     github_id: azaitsev/millify
     category: text
@@ -1457,34 +1494,43 @@ projects:
   - name: coolname
     github_id: alexanderlukanin13/coolname
     category: text
-    conda_id: conda-forge/coolname
     pypi_id: coolname
+    conda_id: conda-forge/coolname
   - name: pinject
     github_id: google/pinject
     category: utilities
     pypi_id: pinject
+    conda_id: conda-forge/pinject
   - name: python-dependency-injector
     github_id: ets-labs/python-dependency-injector
     category: utilities
     pypi_id: dependency-injector
+    conda_id: conda-forge/dependency_injector
   - name: phonenumbers
-    pypi_id: phonenumbers
     github_id: daviddrysdale/python-phonenumbers
+    category: text
+    pypi_id: phonenumbers
     conda_id: conda-forge/phonenumbers
-    category: text
   - name: pyahocorasick
-    pypi_id: pyahocorasick
     github_id: WojciechMula/pyahocorasick
+    category: text
+    pypi_id: pyahocorasick
     conda_id: conda-forge/pyahocorasick
-    category: text
   - name: inflect
-    pypi_id: inflect
     github_id: jaraco/inflect
-    conda_id: conda-forge/inflect
     category: text
+    pypi_id: inflect
+    conda_id: conda-forge/inflect
   - name: best-of-ml-python - NLP
     github_id: ml-tooling/best-of-ml-python
-    homepage: https://github.com/ml-tooling/best-of-ml-python#text-data--nlp
-    description: "Collection of text processing and NLP libraries."
-    resource: True
+    description: Collection of text processing and NLP libraries.
+    resource: true
     category: text
+    homepage: https://github.com/ml-tooling/best-of-ml-python#text-data--nlp
+  - name: openpyxl
+    pypi_id: openpyxl
+    gitlab_id: "https://foss.heptapod.net/api/graphql::openpyxl/openpyxl"
+    conda_id: openpyxl
+    dockerhub_id: "openpyxl/openpyxl-ci"
+    docs_url: https://openpyxl.readthedocs.io/en/stable/
+    license: MIT
