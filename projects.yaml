@@ -1534,3 +1534,44 @@ projects:
     dockerhub_id: "openpyxl/openpyxl-ci"
     docs_url: https://openpyxl.readthedocs.io/en/stable/
     license: MIT
+  - name: asyncer
+    github_id: tiangolo/asyncer
+    category: async
+    conda_id: conda-forge/asyncer
+    pypi_id: asyncer
+  - name: borb
+    github_id: jorisschellekens/borb
+    category: data-loading
+    conda_id: conda-forge/borb
+    pypi_id: ptext-joris-schellekens
+  - name: img2dataset
+    github_id: rom1504/img2dataset
+    category: data-loading
+    pypi_id: img2dataset
+  - name: glom
+    github_id: mahmoud/glom
+    category: data-structures
+    conda_id: conda-forge/glom
+    pypi_id: glom
+  - name: dataklasses
+    github_id: dabeaz/dataklasses
+    category: data-validation
+  - name: sqlmodel
+    github_id: tiangolo/sqlmodel
+    category: db-clients
+    labels: ["pydantic"]
+    conda_id: conda-forge/sqlmodel
+    pypi_id: sqlmodel
+  - name: aioprometheus
+    github_id: claws/aioprometheus
+    category: db-clients
+    pypi_id: aioprometheus
+  - name: filesystem_spec
+    github_id: fsspec/filesystem_spec
+    category: file-path-utils
+    conda_id: conda-forge/fsspec
+    pypi_id: fsspec
+  - name: rtoml
+    github_id: samuelcolvin/rtoml
+    category: serialization
+    pypi_id: rtoml
