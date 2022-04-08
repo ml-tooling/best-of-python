@@ -1575,6 +1575,6 @@ projects:
     github_id: samuelcolvin/rtoml
     category: serialization
     pypi_id: rtoml
-  - name: copier
+  - name: Copier
     github_id: copier-org/copier
     pypi_id: copier
