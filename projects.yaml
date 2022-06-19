@@ -476,7 +476,7 @@ projects:
     conda_id: conda-forge/colorama
   - name: emoji
     github_id: carpedm20/emoji
-    category: cli-helpers
+    category: text
     pypi_id: emoji
     conda_id: conda-forge/emoji
   - name: blessings
@@ -1744,3 +1744,18 @@ projects:
     category: data-containers
     conda_id: conda-forge/docarray
     pypi_id: docarray
+  - name: pypyr
+    github_id: pypyr/pypyr
+    category: infrastructure
+    conda_id: conda-forge/pypyr
+    pypi_id: pypyr
+  - name: dirty-equals
+    github_id: samuelcolvin/dirty-equals
+    category: data-validation
+    conda_id: conda-forge/dirty-equals
+    pypi_id: dirty-equals
+  - name: everett
+    github_id: willkg/everett
+    category: configuration
+    conda_id: conda-forge/everett
+    pypi_id: everett
