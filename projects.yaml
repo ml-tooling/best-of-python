@@ -1970,3 +1970,8 @@ projects:
     github_id: vincentclaes/datajob
     pypi_id: datajob
     category: data-pipelines
+  - name: Squirrel
+    github_id: merantix-momentum/squirrel-core
+    pypi_id: squirrel-core
+    conda_id: squirrel-core
+    category: data-loading
