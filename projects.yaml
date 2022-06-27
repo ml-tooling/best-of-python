@@ -1975,3 +1975,7 @@ projects:
     pypi_id: squirrel-core
     conda_id: squirrel-core
     category: data-loading
+  - name: Upgini
+    github_id: upgini/upgini
+    pypi_id: upgini
+    category: data-loading
