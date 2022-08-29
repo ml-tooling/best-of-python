@@ -4676,7 +4676,7 @@ _Libraries for data batch- and stream-processing, workflow automation, job sched
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/python/cpython">cpython</a></b> (🥇39 ·  ⭐ 47K · 📉) - The Python programming language. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/python/cpython">cpython</a></b> (🥇39 ·  ⭐ 47K · 📉) - The Python programming language(https://www.scaler.com/topics/python). <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/python/cpython) (👨‍💻 2.2K · 🔀 24K · 📋 62K - 13% open · ⏱️ 25.08.2022):
 
@@ -5020,6 +5020,7 @@ _Libraries for data batch- and stream-processing, workflow automation, job sched
 - [**best-of-web-python**](https://github.com/ml-tooling/best-of-web-python): A ranked list of awesome Python libraries for web development.
 - [**best-of-python-dev**](https://github.com/ml-tooling/best-of-python-dev): A ranked list of awesome Python developer tools and libraries.
 - [**awesome-python**](https://github.com/vinta/awesome-python): A curated list of awesome Python frameworks, libraries, software and resources.
+- [**Python Libraries**](https://www.scaler.com/topics/python-libraries/): Python libraries are a collection of helpful functions that allow us to write code without having to start from scratch.
 
 ## Contribution
 
