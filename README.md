@@ -5001,6 +5001,7 @@ _Libraries for data batch- and stream-processing, workflow automation, job sched
 - [**best-of-web-python**](https://github.com/ml-tooling/best-of-web-python): A ranked list of awesome Python libraries for web development.
 - [**best-of-python-dev**](https://github.com/ml-tooling/best-of-python-dev): A ranked list of awesome Python developer tools and libraries.
 - [**awesome-python**](https://github.com/vinta/awesome-python): A curated list of awesome Python frameworks, libraries, software and resources.
+- [**Explore Python**](https://kandi.openweaver.com/explore/python): Discover & find a curated list of popular & new awesome python libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi
 
 ## Contribution
 
