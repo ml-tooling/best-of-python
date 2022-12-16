@@ -1979,3 +1979,8 @@ projects:
     github_id: upgini/upgini
     pypi_id: upgini
     category: data-loading
+  - name: Best of Machine Learning
+    github_id: absterjr
+    docs_url: https://kandi.openweaver.com/collections/machine-learning/python-machine-learning
+    description: A curated List of best machine learning libraries
+    category: Others
