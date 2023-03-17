@@ -1979,3 +1979,7 @@ projects:
     github_id: upgini/upgini
     pypi_id: upgini
     category: data-loading
+  - name: xonsh
+    github_id: xonsh/xonsh
+    pypi_id: xonsh
+    category: cli-helpers
