@@ -1979,3 +1979,7 @@ projects:
     github_id: upgini/upgini
     pypi_id: upgini
     category: data-loading
+  - name: xxh
+    github_id: xxh/xxh
+    pypi_id: xxh-xxh
+    category: infrastructure
