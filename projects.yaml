@@ -1979,3 +1979,7 @@ projects:
     github_id: upgini/upgini
     pypi_id: upgini
     category: data-loading
+  - name: Click Extra
+    github_id: kdeldycke/click-extra
+    pypi_id: click-extra
+    category: "cli-helpers"
