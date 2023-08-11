@@ -1983,3 +1983,8 @@ projects:
     github_id: kdeldycke/click-extra
     pypi_id: click-extra
     category: "cli-helpers"
+  - name: Grai
+    github_id: grai-io/grai-core
+    pypi_id: the-guide
+    category: infrastructure
+    description: Platform to programmatically manage, test, and debug data infrastructure.
