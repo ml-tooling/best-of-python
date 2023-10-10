@@ -1988,3 +1988,8 @@ projects:
     pypi_id: the-guide
     category: infrastructure
     description: Platform to programmatically manage, test, and debug data infrastructure.
+  - name: Pipeless
+    github_id: pipeless-ai/pipeless
+    pypi_id: pipeless-ai
+    category: computer-vision
+    description: An open-source framework to create and deploy computer vision applications in minutes.
