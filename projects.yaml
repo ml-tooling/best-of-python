@@ -229,6 +229,7 @@ projects:
     category: gui-dev
     pypi_id: pysimplegui
     conda_id: conda-forge/pysimplegui
+    license: PySimpleGUI License
   - name: toga
     github_id: beeware/toga
     category: gui-dev
