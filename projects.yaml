@@ -1856,6 +1856,10 @@ projects:
     category: data-pipelines
     helm_id: stable/airflow
     description: Platform to programmatically author, schedule, and monitor workflows.
+  - name: CocoIndex
+    github_id: cocoindex-io/cocoindex
+    pypi_id: cocoindex
+    category: data-pipelines
   - name: Beam
     github_id: apache/beam
     pypi_id: apache-beam
